@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65CA23711F6B59ED004F5C7F /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA23701F6B59ED004F5C7F /* Manga.swift */; };
 		65FCE4001F60A3A40039EF6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FCE3FF1F60A3A40039EF6D /* AppDelegate.swift */; };
 		65FCE4021F60A3A40039EF6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FCE4011F60A3A40039EF6D /* ViewController.swift */; };
 		65FCE4051F60A3A40039EF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FCE4031F60A3A40039EF6D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65CA23701F6B59ED004F5C7F /* Manga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manga.swift; sourceTree = SOURCE_ROOT; };
 		65FCE3FC1F60A3A40039EF6D /* MangaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FCE3FF1F60A3A40039EF6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FCE4011F60A3A40039EF6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				65FCE3FF1F60A3A40039EF6D /* AppDelegate.swift */,
 				65FCE4011F60A3A40039EF6D /* ViewController.swift */,
+				65CA23701F6B59ED004F5C7F /* Manga.swift */,
 				65FCE4031F60A3A40039EF6D /* Main.storyboard */,
 				65FCE4061F60A3A40039EF6D /* Assets.xcassets */,
 				65FCE4081F60A3A40039EF6D /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CA23711F6B59ED004F5C7F /* Manga.swift in Sources */,
 				65FCE4021F60A3A40039EF6D /* ViewController.swift in Sources */,
 				65FCE4001F60A3A40039EF6D /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				65FCE4261F60A3A40039EF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65FCE4271F60A3A40039EF6D /* Build configuration list for PBXNativeTarget "MangaReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				65FCE4291F60A3A40039EF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65FCE42A1F60A3A40039EF6D /* Build configuration list for PBXNativeTarget "MangaReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				65FCE42C1F60A3A40039EF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
